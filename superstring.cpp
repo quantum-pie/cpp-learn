@@ -144,5 +144,6 @@ int main()
     {
         std::cout << substr.at(i);
     }
+    String gg = String::String();
     return 0;
 }

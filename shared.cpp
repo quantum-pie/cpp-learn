@@ -9,9 +9,6 @@ struct Expression
     int hh;
 };
 
-struct Number;
-struct BinaryOperation;
-
 struct SharedPtr
 {
     explicit SharedPtr(Expression *ptr = 0) : ptr_(ptr) {
